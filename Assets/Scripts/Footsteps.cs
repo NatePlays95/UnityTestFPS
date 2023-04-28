@@ -28,6 +28,7 @@ public class Footsteps : MonoBehaviour
 
     public void ExternalUpdate(bool isGonnaJump, bool isGrounded, bool isLandedThisFrame)
     {
+        if (!_audioSource.enabled) return;
         if (_distanceCovered > DistancePerStep)
         {
             _distanceCovered = 0;

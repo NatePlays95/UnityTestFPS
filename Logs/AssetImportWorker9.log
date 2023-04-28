@@ -1,0 +1,285 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 7876 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+53642
+Successfully changed project path to: C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19492] Host "[IP] 26.74.56.139 [Port] 0 [Flags] 2 [Guid] 3682664524 [EditorId] 3682664524 [Version] 1048832 [Id] WindowsEditor(7,NatanDellG15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19492] Host "[IP] 26.74.56.139 [Port] 0 [Flags] 2 [Guid] 3682664524 [EditorId] 3682664524 [Version] 1048832 [Id] WindowsEditor(7,NatanDellG15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 96.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004718 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.602 seconds
+Domain Reload Profiling:
+	ReloadAssembly (603ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (271ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006308 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\natan\OneDrive\Documentos\Unity Projects\UnityTestFPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\natan\OneDrive\Documentos\Unity Projects\UnityTestFPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1000ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (745ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (174.1 KB). Loaded Objects now: 4217.
+Memory consumption went from 152.5 MB to 152.3 MB.
+Total: 2.842000 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.135400 ms MarkObjects: 2.299000 ms  DeleteObjects: 0.142700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345365.344863 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3c0b53d57d33e7bcf3c846cc297252') in 0.142294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0644cb4b070366505cbeb6366d6781cf') in 0.030039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b015c9d5bdadc3317989916f713e5cc3') in 0.028733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x.png
+  artifactKey: Guid(88a167cee1bb94744976dbe4929b3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x.png using Guid(88a167cee1bb94744976dbe4929b3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f46a06f1c703e30e9ddef5a2c07cd02') in 0.024367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png
+  artifactKey: Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch.png using Guid(daaddaa51d20cb14a971727d2576c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854868fea90d11bc041fa5aa43a0f2d9') in 0.016681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8201d79be9fc423d6f7f3d6d815a96') in 0.029548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.924507 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_01.png
+  artifactKey: Guid(356d6af6af8dd7c46bf31f5f8d61f163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_01.png using Guid(356d6af6af8dd7c46bf31f5f8d61f163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9162f04b5e44b4430857d10060439a7') in 0.024726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_02.png
+  artifactKey: Guid(87b40d36d40c2a841b57cac305440454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_02.png using Guid(87b40d36d40c2a841b57cac305440454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a08d387acb68638b1810c3b3bdb1dba') in 0.023022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Dark/texture_04.png
+  artifactKey: Guid(bb7f052a150c4a947a05cdbd91688c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Dark/texture_04.png using Guid(bb7f052a150c4a947a05cdbd91688c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e09390530e67818386ddaf110b9a330') in 0.016910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_01.png
+  artifactKey: Guid(867ac3c7b245f9643b0d58bb0b283a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_01.png using Guid(867ac3c7b245f9643b0d58bb0b283a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde36f4b4ba3bb57a3f94ee195bb2317') in 0.018765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Orange/texture_03.png
+  artifactKey: Guid(42bb5533aa9096a408a39f24a3dcf368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Orange/texture_03.png using Guid(42bb5533aa9096a408a39f24a3dcf368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ae0959d06cb07b17925688c4fa7639') in 0.019683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_04.png
+  artifactKey: Guid(39953a3868757d049932e08271fc75bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_04.png using Guid(39953a3868757d049932e08271fc75bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fdd181c16192290ae0aab4af8844cd') in 0.020225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Dark/texture_03.png
+  artifactKey: Guid(f3d0547625905014fa6684f204d121b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Dark/texture_03.png using Guid(f3d0547625905014fa6684f204d121b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ded1c32339d5007328426668d58f92') in 0.023317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_03.png
+  artifactKey: Guid(c4460b9fcada9734ab614b68b6628266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_03.png using Guid(c4460b9fcada9734ab614b68b6628266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60505dd749f8716f76945fa07e481e3f') in 0.018367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.145265 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Orange/texture_06.png
+  artifactKey: Guid(e063935de6d887d4a800ae3c33d3d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Orange/texture_06.png using Guid(e063935de6d887d4a800ae3c33d3d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a95034b8e393d71efe464f0d4fa8e5') in 0.030467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212045 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_07.png
+  artifactKey: Guid(cad5805c25a6ea04d85284efe2900f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_07.png using Guid(cad5805c25a6ea04d85284efe2900f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51dab401fa6371ecf4b8f1ecb55250c3') in 0.024656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038632 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Dark/texture_07.png
+  artifactKey: Guid(1d8cf0bcc8891d84a83ad0407d9c33cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Dark/texture_07.png using Guid(1d8cf0bcc8891d84a83ad0407d9c33cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d5b84cb50a317fc8c14d830ec777f9') in 0.016298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.378448 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_08.png
+  artifactKey: Guid(a70680dc6d85fe940bb57ac33b985413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_08.png using Guid(a70680dc6d85fe940bb57ac33b985413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4659525f0cc972dc87871469696da9') in 0.028281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036213 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Orange/texture_09.png
+  artifactKey: Guid(571eb94ea1ba980459d99d0fea8c8efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Orange/texture_09.png using Guid(571eb94ea1ba980459d99d0fea8c8efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558db5a2896b6c4065f2cdd9f2d0e1dd') in 0.024762 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

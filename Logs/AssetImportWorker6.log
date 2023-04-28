@@ -1,0 +1,459 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 7876 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53642
+Successfully changed project path to: C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8788] Host "[IP] 26.74.56.139 [Port] 0 [Flags] 2 [Guid] 2719495394 [EditorId] 2719495394 [Version] 1048832 [Id] WindowsEditor(7,NatanDellG15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8788] Host "[IP] 26.74.56.139 [Port] 0 [Flags] 2 [Guid] 2719495394 [EditorId] 2719495394 [Version] 1048832 [Id] WindowsEditor(7,NatanDellG15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 74.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/natan/OneDrive/Documentos/Unity Projects/UnityTestFPS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3118
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006142 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (341ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004909 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\natan\OneDrive\Documentos\Unity Projects\UnityTestFPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\natan\OneDrive\Documentos\Unity Projects\UnityTestFPS\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (866ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (158.5 KB). Loaded Objects now: 4194.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 3.430700 ms (FindLiveObjects: 0.209300 ms CreateObjectMapping: 0.100900 ms MarkObjects: 3.006600 ms  DeleteObjects: 0.113100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 345320.094060 seconds.
+  path: Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png
+  artifactKey: Guid(7e4b97337334f42d2a700647fd938234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Material/Textures/GridBox_Collider.png using Guid(7e4b97337334f42d2a700647fd938234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d67033a7c4469fdd88f4c93ddd975bb') in 0.098982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.147729 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png
+  artifactKey: Guid(d6ffabc4f227bf34d9c97357a84009be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Normal_Horizontal_Light.png using Guid(d6ffabc4f227bf34d9c97357a84009be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626c2d792ff9d2276965daf0baf5f369') in 0.038014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png
+  artifactKey: Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedlocal@2x.png using Guid(a67b58d6cddcd4345b1e001340de5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80dbbf2c5defcc971161095cf518985') in 0.086716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Local.png
+  artifactKey: Guid(a187dcc3eec2047b38062e5def2d4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Local.png using Guid(a187dcc3eec2047b38062e5def2d4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324ebc4eeb3de0b74d0595e6b0741dc6') in 0.020120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png
+  artifactKey: Guid(ceaaf12e14b14a14a9cfb6c1345984ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Horizontal_Light.png using Guid(ceaaf12e14b14a14a9cfb6c1345984ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae7a9ce01a28689a72829dcf4ec2848') in 0.028588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedoverlay@2x.png
+  artifactKey: Guid(74ef721fef79c44489d4e3edb0ab0c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconaddedoverlay@2x.png using Guid(74ef721fef79c44489d4e3edb0ab0c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22843957e1f53dfde5b973aa9cc9d521') in 0.034889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictedoverlay@2x.png
+  artifactKey: Guid(5679a74364f6b4440ab7e7aed55cd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflictedoverlay@2x.png using Guid(5679a74364f6b4440ab7e7aed55cd95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79615a12bab0efdb277ed3b19eb517c1') in 0.032810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Vertical.png
+  artifactKey: Guid(53c57c97fb66b4dad806f2dc1545afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Pressed_Vertical.png using Guid(53c57c97fb66b4dad806f2dc1545afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d654ed60857b080b9af13107cab9e2') in 0.021966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png
+  artifactKey: Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconclosebutton.png using Guid(13527793884104b46b7446fd7464c3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162b1014ad665ce3e57f77cb45333b0c') in 0.034614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Plane.png
+  artifactKey: Guid(6d8a0cbf20c07418bbb33ec170d3a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/HandleAlign_Plane.png using Guid(6d8a0cbf20c07418bbb33ec170d3a000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75058594aafbbab92a1ef828c149063') in 0.018532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeleted.png
+  artifactKey: Guid(77a39e873655d3c4b93d0b7696397b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/icondeleted.png using Guid(77a39e873655d3c4b93d0b7696397b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cea8e58eb6033b877dc82de7d888668') in 0.031609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Normal_Vertical.png
+  artifactKey: Guid(04fdee38d88f74afe85c35116ced973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Background/Geo_Normal_Vertical.png using Guid(04fdee38d88f74afe85c35116ced973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b724162896f464a3814b7e6b6d39ff69') in 0.027393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted.png
+  artifactKey: Guid(d1c88f142eee55b4eb2b2cfd7b3624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted.png using Guid(d1c88f142eee55b4eb2b2cfd7b3624ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2df0be4849a27a9bb728120b52ac9e9') in 0.031090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png
+  artifactKey: Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconconflicted@2x.png using Guid(f95f697d66d238446b1ab717def09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8cd440c30c3f2d781c31aaa700827a') in 0.032275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.216286 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_10.png
+  artifactKey: Guid(3aadeced0b9c55846a6ef837ba2925bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_10.png using Guid(3aadeced0b9c55846a6ef837ba2925bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfa10ab4ac6589e0050abd05916d894') in 0.023385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_12.png
+  artifactKey: Guid(817f11a198e8c2945a48ecaae81ae480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_12.png using Guid(817f11a198e8c2945a48ecaae81ae480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f34d5400f8faf37aa319fb9ca092c6') in 0.018965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Red/texture_12.png
+  artifactKey: Guid(5313fbb5497f74445966513092d6a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Red/texture_12.png using Guid(5313fbb5497f74445966513092d6a267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfbf093df0b5d87449b9f94deb47054') in 0.016566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_11.png
+  artifactKey: Guid(25829df6eec49b24c9a795b09e8127c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_11.png using Guid(25829df6eec49b24c9a795b09e8127c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748c7d8678d480cb39111f7eadbe5ea5') in 0.023270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_13.png
+  artifactKey: Guid(ef11210a07c3ea945a66821d1adf2276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_13.png using Guid(ef11210a07c3ea945a66821d1adf2276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c4aed294e11975c561a85aeb73d5cd') in 0.021237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Red/texture_10.png
+  artifactKey: Guid(9e03d3515dbf90b4ba50874f41c6eb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Red/texture_10.png using Guid(9e03d3515dbf90b4ba50874f41c6eb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c2e82b71a00134752a7e575339f940') in 0.019432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Texturing_Paintbrush.png
+  artifactKey: Guid(cd7a91ef87d0b4d028bf97077204fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Texturing_Paintbrush.png using Guid(cd7a91ef87d0b4d028bf97077204fc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104ea3ecc3df953862c360638e93cfa5') in 0.027535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_13.png
+  artifactKey: Guid(39d6a773d91f73e4d9219f9971877c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_13.png using Guid(39d6a773d91f73e4d9219f9971877c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0b755776028d87c2228c913e48254e') in 0.016189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_12.png
+  artifactKey: Guid(6c1cc9f6f422abb498fd60849e021ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_12.png using Guid(6c1cc9f6f422abb498fd60849e021ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6c66a3afe040ff1534c48e96d9e74d') in 0.023628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Dark/texture_11.png
+  artifactKey: Guid(3ad1584e252eca2438f48ce3b315e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Dark/texture_11.png using Guid(3ad1584e252eca2438f48ce3b315e51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c4a406c83347b40b021e67b80c9c85') in 0.023990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_11.png
+  artifactKey: Guid(af5e63e558948754d89e888b27d97fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_11.png using Guid(af5e63e558948754d89e888b27d97fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236165ab0938c6e0ed0082e7a1503d88') in 0.016485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_12.png
+  artifactKey: Guid(930070126f7b3074f80251f7655b88a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_12.png using Guid(930070126f7b3074f80251f7655b88a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597619572780aa4b609aafa8d8de2c13') in 0.014285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.900512 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb78052f57df198b857cf85dd5e1a9ba') in 0.029016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png
+  artifactKey: Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png using Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254e65d5f5f624d364df1e6b8b40b262') in 0.021542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03fa845761212c2e46fac3b4343677a') in 0.037528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png
+  artifactKey: Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch@2x_Light.png using Guid(883681e440ab51b4eb2f55fdc864b1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a7a84d1c86a8e8b24c460c8d5006c3') in 0.029023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17bb311e1048bbab1128cbcad5ba461') in 0.030570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch_Light.png
+  artifactKey: Guid(ba8d0d3e2af01a442b80960299ed9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Tools/ShapeTool/Arch_Light.png using Guid(ba8d0d3e2af01a442b80960299ed9d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69745c47c5337712b0df581408244094') in 0.023859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Aligned.png
+  artifactKey: Guid(bf4846dc2a1a844a29268dbc71f1c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Aligned.png using Guid(bf4846dc2a1a844a29268dbc71f1c454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badeb61af0a168716d47298578d9f41a') in 0.025620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
+  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfad715970dac603f75a5725516d5a71') in 0.018454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png
+  artifactKey: Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png using Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b1ead12eaaa6c122ae6744f859bf46') in 0.025942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.932775 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Red/texture_01.png
+  artifactKey: Guid(31657bb139a90a3469bbb2b261b55908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Red/texture_01.png using Guid(31657bb139a90a3469bbb2b261b55908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a62f7f77d9342a4a635e22a1c707980') in 0.020919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_04.png
+  artifactKey: Guid(29be6be3cefce0f46ac877fac3ac32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_04.png using Guid(29be6be3cefce0f46ac877fac3ac32f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae46835b3f11379175cb829694a040d') in 0.026090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Orange/texture_01.png
+  artifactKey: Guid(e44f66161a86be94d8b561317a940db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Orange/texture_01.png using Guid(e44f66161a86be94d8b561317a940db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d324f106d0e4a8d493937d172557b7') in 0.017999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_03.png
+  artifactKey: Guid(9061c8c869375e64cbca873f465e3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_03.png using Guid(9061c8c869375e64cbca873f465e3567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837b1a89ebbdeb60924f51cc940eb5cf') in 0.019032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Orange/texture_04.png
+  artifactKey: Guid(3a2def54ccb61fe47be4b5bc30f93c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Orange/texture_04.png using Guid(3a2def54ccb61fe47be4b5bc30f93c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82aedcfc43c20fe4a0c25df609a44b12') in 0.018539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Red/texture_02.png
+  artifactKey: Guid(5eb50565538cd0a4584866278eeda8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Red/texture_02.png using Guid(5eb50565538cd0a4584866278eeda8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50744b03a1f558152216a01c3bb01704') in 0.020001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Purple/texture_02.png
+  artifactKey: Guid(385648559ffaeb145a58e68ea1ba900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Purple/texture_02.png using Guid(385648559ffaeb145a58e68ea1ba900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3102705b1e001c181c5402e6ca6d0d32') in 0.019680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Light/texture_03.png
+  artifactKey: Guid(bd5bffde10509e3499767e5b1d481642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Light/texture_03.png using Guid(bd5bffde10509e3499767e5b1d481642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61d9abe96f09ce2075f5882c9f2a936') in 0.016806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.153182 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_06.png
+  artifactKey: Guid(cfc442b049d7a3349b3353a250c55ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_06.png using Guid(cfc442b049d7a3349b3353a250c55ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33707f94deb53217be3f59245fe9af1') in 0.028807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212140 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Red/texture_06.png
+  artifactKey: Guid(e0e38662c8d28a64a91f68d7239893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Red/texture_06.png using Guid(e0e38662c8d28a64a91f68d7239893a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ecbff6a4312c015adeaa992152842') in 0.027959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036514 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_07.png
+  artifactKey: Guid(f5ad1f1969d10354482fef65fe5705ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_07.png using Guid(f5ad1f1969d10354482fef65fe5705ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09de00f1a24e0b56219217f873673de4') in 0.018514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374666 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Dark/texture_08.png
+  artifactKey: Guid(2448f26af96c08e4d8ac287055f8bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Dark/texture_08.png using Guid(2448f26af96c08e4d8ac287055f8bfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7701e04b35090f79c24f2fa99e6635a5') in 0.026442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037391 seconds.
+  path: Assets/Images/Kenney Prototype Texture/Green/texture_09.png
+  artifactKey: Guid(6d9b61f8372dca64c98859821b8fa304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Kenney Prototype Texture/Green/texture_09.png using Guid(6d9b61f8372dca64c98859821b8fa304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aebfb3835920215f08d358b446d6e1') in 0.025785 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
